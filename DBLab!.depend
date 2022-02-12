@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1644690605 source:f:\download\Новая папка\dblab!\main.cpp
+	<iostream>
+	"Hearders.h"
+
+1644690253 f:\download\Новая папка\dblab!\hearders.h
+	<iostream>
+	<fstream>
+	<string>
+	<Windows.h>
+
