@@ -9,3 +9,16 @@
 	<string>
 	<Windows.h>
 
+1644756933 source:f:\download\Новая папка\dblab!\dblab\main.cpp
+	<iostream>
+	"Hearders.h"
+
+1644690253 f:\download\Новая папка\dblab!\dblab\hearders.h
+	<iostream>
+	<fstream>
+	<string>
+	<Windows.h>
+
+1644757032 source:f:\download\Новая папка\dblab!\dblab\function.cpp
+	"Hearders.h"
+

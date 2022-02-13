@@ -11,6 +11,7 @@ cout<<"Choice >>"<<endl
 << "(4) Delete>> " << endl
 << "(5) Add>> " << endl
 << "(6) Save>> " << endl
+<<"(7) Exit and return>> " << endl
 << "Your Choice: ";
 cin >> stateMEnu;
 }
@@ -72,16 +73,27 @@ case 6:
    system("pause");
    Menu();
    break;
+case 7:
+    system("cls");
+    exit(3);
+    return 3;
+    system("pause");
+    Menu();
+    break;
+default:
+    cout <<"Incorrently input in menu" << endl;
+    break;
 }
 
 }
-if(DataCleaning()){
+system("cls");
+if(DataCleaning())
     cout << "Data Cleaning.." << endl;
 
 
-}else {
+else
 cout << "Error! Data not cleaning!" << endl;
-}
+
 cout << "Work is end" << endl;
 system("pause");
 }
